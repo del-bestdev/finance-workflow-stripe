@@ -2,7 +2,7 @@ name: Repo-Updater
 
 on:
   schedule:
-    - cron: '0 0 * * *' # daily
+    - cron: '0 0 * * 0' # weekly
 
 
 jobs:
